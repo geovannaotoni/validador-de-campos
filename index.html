@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Validador de Campos</title>
+</head>
+<body>
+
+  <main>
+
+    <h1>Validador de Campos</h1>
+
+    <form action="">
+
+      <input type="text" placeholder="Digite o valor a ser validado" id="input">
+
+      <select name="" id="option">
+        <option value="email">E-mail</option>
+        <option value="cpf">CPF</option>
+        <option value="hexColor">Cor Hexadecimal</option>
+        <option value="url">URL</option>
+        <option value="date">Data (ano-dia-mês)</option>
+        <option value="currency">Moeda</option>
+        <option value="mobilePhone">Celular</option>
+      </select>
+
+      <button id="button">Validar Dado</button>
+      
+    </form>
+
+    <p id="answer">Digite o valor, escolha a opção e clique em validar</p>
+
+  </main>
+  <footer>
+    <p>Feito por Geovanna Otoni, com a utilização da Biblioteca <a href="https://www.npmjs.com/package/validator">Validator.js</a></p>
+  </footer>
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
