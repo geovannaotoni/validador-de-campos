@@ -1,3 +1,11 @@
+* {
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: sans-serif;
   min-height: 100vh;
@@ -13,12 +21,21 @@ body {
 background-size: 30px 30px, 30px 30px;
 }
 
+h1 {
+  font-size: 45px;
+  margin-bottom: 50px;
+}
+
 main {
   background-color: rgba(128, 128, 128, 0.915);
-  width: 600px;
+  width: 800px;
   border-radius: 8px;
-  padding: 10px;
+  padding: 80px;
   border: 3px solid black;
+}
+
+main p {
+  margin-top: 15px;
 }
 
 form {
@@ -31,24 +48,29 @@ form {
 
 button {
   border: none;
-  padding: 7px 10px;
+  padding: 10px 40px;
   border-radius: 5px;
   color: white;
   background-color: black;
   cursor: pointer;
+  width: 400px;
+  margin: 15px;
 }
 
 input , select {
   padding: 5px;
   border-radius: 3px;
   border: none;
+  width: 400px;
+  border: 1px solid black;
 }
 
 footer {
   position: absolute;
   bottom: 0;
-  background-color: rgba(255, 255, 255, 0.762);
+  background-color:  rgba(128, 128, 128, 0.8);
   width: 100%;
+  padding: 30px;
 }
 
 footer p {
