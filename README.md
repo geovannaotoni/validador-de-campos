@@ -1,5 +1,6 @@
 # Validador de Campos
 Foi construida uma página que permite validar se o texto é um CPF, um e-mail, uma cor Hexadecimal, uma URL, uma data, uma moeda ou um telefone celular.
+<img src="./validador.gif">
 
 ## :computer: Visualize este projeto:
 Acesse a página aqui:
